@@ -1,0 +1,192 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+.matrixlogo{
+
+    position: relative;
+
+    left: 60px;
+    width: 20%;
+
+}
+.headermain{
+
+  width: 40%;  
+    
+    
+}
+.logomain{
+display: flex;
+justify-content: space-between;
+}
+.ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    position: relative;
+    left: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 70%;
+    color: #FFFFFF;
+}
+.searchicon{
+
+    font-size: 50px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    color: #FFFFFF;
+
+}
+.searchmenu{
+
+    display: none;
+}
+.resmenu{
+    display: none;
+}
+
+.resmenu2{
+    display: none;
+}
+
+.resmenu3{
+    display: none;
+}
+
+@media only  screen and (max-width:1024px) {
+    .ul{
+
+        font-size: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 70%;
+        
+    }
+    .matrixlogo{
+
+        position: relative;
+        bottom: 10px;
+        width: 20%;
+    }
+    .searchmenu{
+
+        display: none;
+    }
+    .searchicon{
+
+        padding-right: 100px;
+        
+    }
+    /* .resmenu{
+
+        display: none;
+    }
+    .resmenu2{
+
+        display: none;
+    }
+    .resmenu3{
+
+        display: none;
+    }
+    .searchmenu{
+
+        display: none;
+    }
+     */
+}
+@media only screen and (max-width:768px) {
+   .matrixlogo{
+     display: flex;
+     justify-content: flex-start;
+    width: 30%;
+    
+   }
+   /* .resmenu{
+
+    display: block;
+    position: relative;
+    left: 430px;
+    font-size: 20px;
+    color: #FFFFFF;
+    top: 20px;
+    
+   } */
+   .ul{
+
+    display: none;
+   }
+   .searchicon{
+
+    display: none;
+   }
+   .searchmenu{
+    display: none;
+   }
+   .logomain{
+
+    display: flex;
+    justify-content: space-between;
+    
+   }
+   .resmenu2{
+
+    display: block;
+    position: relative;
+    left: 230px;
+    font-size: 20px;
+    color: #FFFFFF; 
+
+   }
+   .resmenu3{
+
+    display: none;
+   } 
+}
+@media only screen and (max-width:425px) {
+    .matrixlogo{
+        width: 60%;
+        
+        
+     }
+     .resmenu{
+
+        display: none;
+}
+.resmenu2{
+
+    display: block;
+    position: relative;
+    left: 230px;
+    top: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+}
+@media only screen and (max-width: 375px) {
+    .matrixlogo{
+        width: 50%;
+}
+     
+    .resmenu{
+
+        display: none;
+}
+.resmenu2{
+
+    display: none;
+}
+.resmenu3{
+
+    position: relative;
+    left: 200px; 
+    font-size: 20px;
+    color: #FFFFFF;
+}
+}

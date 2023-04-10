@@ -1,0 +1,194 @@
+import React from 'react'
+import styles from './body.module.css'
+import image from '../../../images/displayimage.jpg'
+import image2 from '../../../images/displayimage2.jpg'
+import {FaConnectdevelop} from 'react-icons/fa'
+import {AiFillAppstore} from 'react-icons/ai'
+import {AiFillApple} from 'react-icons/ai'
+import {SiInteractiondesignfoundation} from 'react-icons/si'
+import{SiCairographics} from 'react-icons/si'
+import about from '../../../images/aboutcompany.png'
+import project1 from '../../../images/reilu.png'
+import project2 from '../../../images/stiq.png'
+import project3 from '../../../images/filmfestival.png'
+import project4 from '../../../images/swell.png'
+import project5 from '../../../images/safebar.png'
+import {AiOutlineArrowRight} from 'react-icons/ai'
+
+const Body = () => {
+  return (
+    <div>
+
+
+   
+   <div className={styles.display}>
+    <div className={styles.greymenu}>
+  <p className={styles.menupara}>Menu</p>
+    </div>
+      
+    <img className={styles.displayimage}  src = {image}/>
+    
+    <img className={styles.displayimage2} src = {image2}/>
+    
+    </div> 
+    
+
+<div className={styles.wedoing}>
+<p className={styles.what}>What We Do  
+<p className={styles.whatpara}>our services are defined by quality and commitment.</p>  </p>
+<div className={styles.cartsmain}> 
+<div className={styles.cart1}>
+<FaConnectdevelop className={styles.development}/>
+<p className={styles.carthead1}>Mobile Development</p>
+<p className={styles.cartpara1}>
+Our website development company works
+ with clients based all over Pakistan and
+  worldwide. A website is the central tool for
+   the visibility of a business on the Internet.
+    An effective website will not only strengthen
+     the attraction, but also the acquisition and
+      retention of new customers. If you have the
+       ambition to accelerate your growth and
+        increase your income.
+</p>
+
+</div>
+
+<div className={styles.cart2}>
+  <AiFillAppstore className={styles.application}/>
+  <p className={styles.carthead2}>Mobile Apps</p>
+  <p className={styles.cartpara2}>
+  To improve your digital
+   strategy and benefit from all the advantages of the mobile digital
+    age, the mobile application allows you to
+     open new distribution channels for your
+      business. A dedicated application makes it
+       possible to improve the visibility of brands,
+        build customer loyalty, promote even
+         improve your company's business processes.
+</p>
+
+</div>
+
+<div className={styles.cart3}>
+<AiFillApple className={styles.iosapplication}/>
+<p className={styles.carthead3}>Ios Apps</p>
+<p className={styles.cartpara3}>
+A large community is using iphones in the
+ world. We Design & Develop native iOS
+  applications that dynamically adapt multiple
+   screen sizes of iPhone & iPad. We will surely
+    build your application which can compete at
+     international level to get the ball rolling for
+      your organization. The App Store is a
+       platform provided by apple for distributing
+        apps by developers to users.
+
+</p>
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+<div className={styles.orangecolor}>
+<div className={styles.aboutflex}>    
+<img className={styles.aboutimg} src ={about}/>
+<p className={styles.aboutpara}>Our Vision is to achieve 100% customer satisfaction by delivering quality products and services at an affordable cost.</p>
+</div>
+{/* <button className={styles.button1}>Solution for small & large businesses</button>
+<button  className={styles.button2}>Solution for all kind of agencies & businesses</button> */}
+</div>
+
+
+<p className={styles.expertsection}>Expertise</p>
+
+
+<div className={styles.servicesmain}>
+
+<div className={styles.service1}>
+<FaConnectdevelop className={styles.webdesigning}/>
+<p className={styles.experthead}>Web Designing</p>
+</div>
+
+
+
+<div className={styles.service2}>
+<SiInteractiondesignfoundation className={styles.webdevelopment}/>
+<p className={styles.experthead2}>Web Development</p>
+</div>
+
+
+<div className={styles.service3}>
+<SiCairographics className={styles.graphicdesigning}/>
+<p className={styles.experthead3}>Graphic Designing</p>
+</div>
+
+</div>
+
+
+<div className={styles.projectsection}>
+<p className={styles.projecthead}>Our Unique Projects </p>
+<p className={styles.projectpara}>Ready-to-deploy applications that connect, enhance, and empower.</p>  
+</div>
+<div className={styles.projectcartmain}> 
+<div className={styles.projectcart1}>
+<img className={styles.project1img} src ={project1}/>
+<p className={styles.projectcarthead}>Reilu</p>
+<p className={styles.projectcartpara}>  A restaurant applica ...  </p>
+<button className={styles.projectbutton1}>Learn More <AiOutlineArrowRight className={styles.arrow}/> </button>
+</div>
+
+<div className={styles.projectcart2}>
+<img  className={styles.project2img} src = {project2}/>
+<p className={styles.projectcarthead2}>Stiq </p>
+<p className={styles.projectcartpara}>  STiQ Allows a lead organi ...   </p>
+<button className={styles.projectbutton1}>Learn More <AiOutlineArrowRight className={styles.arrow}/> </button>
+
+</div>
+
+<div className={styles.projectcart3}>
+<img  className={styles.project3img} src = {project3}/>
+<p className={styles.projectcarthead3}>Film Festival</p>
+<p className={styles.projectcartpara}>  Film festival mobi ...   </p>
+<button className={styles.projectbutton1}>Learn More <AiOutlineArrowRight className={styles.arrow}/> </button>
+</div>
+
+</div>
+
+<div className={styles.projectcartmain2}>
+<div className={styles.projectcart4}>
+<img className={styles.project4img} src = {project4}/>
+<p className={styles.projectcarthead4}>Swell</p>
+<p className={styles.projectcartpara}>  A Swellcast is a micro-pod ...   </p>
+<button className={styles.projectbutton1}>Learn More <AiOutlineArrowRight className={styles.arrow}/> </button>
+</div>
+
+
+<div className={styles.projectcart5}>
+<img className={styles.project5img} src = {project5}/>
+<p className={styles.projectcarthead5}>Safe Bar</p>
+<p className={styles.projectcartpara}>  A bar is a retail establi ...    </p>
+<button className={styles.projectbutton1}>Learn More <AiOutlineArrowRight className={styles.arrow}/> </button>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+        </div>
+  )
+}
+
+export default Body
