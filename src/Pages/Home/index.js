@@ -8,6 +8,7 @@ const Index = () => {
 <Header/>
 <Body/>
 <Footer/>
+<Footer/>
 
 </>
     )
