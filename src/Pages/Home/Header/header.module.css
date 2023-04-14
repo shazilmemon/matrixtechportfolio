@@ -11,6 +11,10 @@
     width: 20%;
 
 }
+.matrixlogo2{
+
+    display: none;
+}
 .headermain{
 
   width: 40%;  
@@ -26,9 +30,9 @@ justify-content: space-between;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    bottom: 80px;
     position: relative;
-    left: 70px;
+    left: 170px;
     font-weight: bold;
     font-size: 20px;
     width: 70%;
@@ -39,7 +43,7 @@ justify-content: space-between;
     font-size: 50px;
     position: relative;
     left: 150px;
-    top: 20px;
+    bottom: 80px;
     color: #FFFFFF;
 
 }
@@ -58,21 +62,36 @@ justify-content: space-between;
 .resmenu3{
     display: none;
 }
+.navbarRes{
+
+    display: none;
+}
 
 @media only  screen and (max-width:1024px) {
     .ul{
 
         font-size: 15px;
         display: flex;
+        position: relative;
+        left: 120px;
         justify-content: space-evenly;
         width: 70%;
+        
+    }
+    .logomain{
+
+    position: relative;
+    top: 30px;
         
     }
     .matrixlogo{
 
         position: relative;
-        bottom: 10px;
         width: 20%;
+    }
+    .matrixlogo2{
+
+        display: none;
     }
     .searchmenu{
 
@@ -81,7 +100,13 @@ justify-content: space-between;
     .searchicon{
 
         padding-right: 100px;
+        position: relative;
+        bottom: 95px;
         
+    }
+    .navbarRes{
+
+        display: none;
     }
     /* .resmenu{
 
@@ -100,93 +125,156 @@ justify-content: space-between;
         display: none;
     }
      */
+     /* .navbarRes{
+        display: block;
+        width: 5%;
+        position: relative;
+        bottom: 60px;
+        left: 680px;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+        transform: translateX(-100%);
+        transition: all 0.4s ease-in-out;
+    
+    }      */
 }
 @media only screen and (max-width:768px) {
    .matrixlogo{
      display: flex;
-     justify-content: flex-start;
+     position: relative;
+     
     width: 30%;
-    
-   }
-   /* .resmenu{
+    }
+    .matrixlogo2{
 
+        display: none;
+    }
+    .ul{
+
+        display: none;
+    }
+    .searchicon{
+
+        display: none;
+    }
+    .resmenu{
+
+        display: none;
+    }
+.navbarRes{
     display: block;
+    width: 5%;
     position: relative;
-    left: 430px;
+    bottom: 60px;
+    left: 680px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    transform: translateX(-100%);
+    transition: all 0.4s ease-in-out;
+
+}
+.responsivediv{
+    z-index: -10;
+    border: 1px solid white;
+    height: 150px;
+    font-weight: bold;
     font-size: 20px;
-    color: #FFFFFF;
-    top: 20px;
+     background-color:paleturquoise;
+    color: black;
+}
+
+/* .background{
+
+    width: 100%;
     
-   } */
-   .ul{
+} */
+/*     
+ .responsivemain{
 
-    display: none;
-   }
-   .searchicon{
-
-    display: none;
-   }
-   .searchmenu{
-    display: none;
-   }
-   .logomain{
+    border: 1px solid yellow;
+    width: 10%;
+    padding-top: 100px;
+    
+ }  */
+.resul,li{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding-top: 25px;
     
-   }
-   .resmenu2{
-
-    display: block;
-    position: relative;
-    left: 230px;
-    font-size: 20px;
-    color: #FFFFFF; 
-
-   }
-   .resmenu3{
-
-    display: none;
-   } 
+    
+} 
 }
 @media only screen and (max-width:425px) {
     .matrixlogo{
-        width: 60%;
+        display: none;
+    }
+    .matrixlogo2{
         
-        
+        display: block;
+        width: 50%;
      }
      .resmenu{
-
-        display: none;
-}
-.resmenu2{
+display: none;
+     }
+ /* .resmenu2{
 
     display: block;
     position: relative;
-    left: 230px;
-    top: 20px;
+    left: 350px;
+    bottom: 100px;
     font-size: 20px;
-    color: #FFFFFF;
+    font-weight: bold;
+    color: white;
+ }     */
+ .navbarRes{
+    display: block;
+    width: 5%;
+    position: relative;
+    bottom: 60px;
+    left: 400px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    transform: translateX(-100%);
+    transition: all 0.4s ease-in-out;
+
 }
 }
 @media only screen and (max-width: 375px) {
     .matrixlogo{
-        width: 50%;
+        display: none;
+        
+}
+.matrixlogo2{
+
+    display: block;
+    width: 50%;
 }
      
-    .resmenu{
+/* .resmenu2{
 
-        display: none;
-}
-.resmenu2{
-
-    display: none;
-}
-.resmenu3{
-
+    display: block;
     position: relative;
-    left: 200px; 
+    left: 320px;
+    bottom: 100px;
     font-size: 20px;
-    color: #FFFFFF;
+    font-weight: bold;
+    color: white;
+ }      */
+ .navbarRes{
+    display: block;
+    width: 5%;
+    position: relative;
+    bottom: 60px;
+    left: 360px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    transform: translateX(-100%);
+    transition: all 0.4s ease-in-out;
+
 }
 }

@@ -1,4 +1,8 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Pagination } from "swiper";
+import "swiper/css/pagination";
 import styles from './body.module.css'
 import image from '../../../images/displayimage.jpg'
 import image2 from '../../../images/displayimage2.jpg'
@@ -14,7 +18,13 @@ import project3 from '../../../images/filmfestival.png'
 import project4 from '../../../images/swell.png'
 import project5 from '../../../images/safebar.png'
 import {AiOutlineArrowRight} from 'react-icons/ai'
-
+import {GrUserExpert} from 'react-icons/gr'
+import display from '../../../images/displayimage.jpg'
+import display3 from '../../../images/displayimage3.jpg'
+import display4 from '../../../images/displayimage4.jpg'
+import olive from '../../../images/oliveGeorge.jpg'
+import leo from '../../../images/leooscar.jpg'
+import john from '../../../images/johnwilliam.jpg'
 const Body = () => {
   return (
     <div>
@@ -148,8 +158,8 @@ A large community is using iphones in the
 <p className={styles.projectcarthead2}>Stiq </p>
 <p className={styles.projectcartpara}>  STiQ Allows a lead organi ...   </p>
 <button className={styles.projectbutton1}>Learn More <AiOutlineArrowRight className={styles.arrow}/> </button>
-
 </div>
+
 
 <div className={styles.projectcart3}>
 <img  className={styles.project3img} src = {project3}/>
@@ -157,8 +167,8 @@ A large community is using iphones in the
 <p className={styles.projectcartpara}>  Film festival mobi ...   </p>
 <button className={styles.projectbutton1}>Learn More <AiOutlineArrowRight className={styles.arrow}/> </button>
 </div>
-
 </div>
+
 
 <div className={styles.projectcartmain2}>
 <div className={styles.projectcart4}>
@@ -175,12 +185,76 @@ A large community is using iphones in the
 <p className={styles.projectcartpara}>  A bar is a retail establi ...    </p>
 <button className={styles.projectbutton1}>Learn More <AiOutlineArrowRight className={styles.arrow}/> </button>
 </div>
+</div>
+
+<div className={styles.expertsubmain}> 
+<p className={styles.benifitssection}>Our Benifits 
+<p className={styles.benifithead}>Reason Why We<br></br> Are Best</p> </p>
+
+<div className={styles.expertflex}>
+ <div className={styles.expert1main}>  
+<GrUserExpert className={styles.expert1}/>
+<p className={styles.expertpara}>The best user<br></br> interfaces and<br></br> experience</p>
+</div>
 
 
+<div className={styles.expert1main}>  
+<GrUserExpert className={styles.expert1}/>
+<p className={styles.expertpara}>The best user<br></br> interfaces and<br></br> experience</p>
+</div>
+</div>
 
+<img className={styles.threeimg} src = {display3}/>
+<img className={styles.threeimg2} src = {display}/>
+<img className={styles.threeimg3} src = {display4}/>
 
 
 </div>
+
+<p className={styles.finalpara}>Investing in our people is of critical
+<p>    importance as we move forward. </p>
+<p>     Asinlabs believes in reinventing itself </p>
+<p>     every few years, which is why we have </p>
+<p>       grown over the past four decades. We </p>
+<p>        have created a culture that allows us to </p>
+<p>         foster innovation in its broader sense </p>
+ <p>         and focus on idea generation. </p></p>
+
+
+<p className={styles.feedbacksectionhead}>Happy Customers
+<p className={styles.feedbacksubpara}>The remarkable results achieved by organizations that trust Systems.</p>
+</p>
+                                         
+<div className={styles.animationdiv}>
+
+<Swiper
+        pagination={{
+          dynamicBullets: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide><img className={styles.oliveimg} src ={olive}/></SwiperSlide>
+        <SwiperSlide><img className={styles.leoimg}  src ={leo}/></SwiperSlide>
+        <SwiperSlide><img className={styles.johnimg} src ={john}/></SwiperSlide>
+       
+      </Swiper>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
