@@ -740,6 +740,8 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
+    transition: transform .6s ease-in-out;
+
     background: #fff;
   }
   .swiper-slide img {
