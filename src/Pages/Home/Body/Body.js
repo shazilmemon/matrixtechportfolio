@@ -278,7 +278,7 @@ const Body = () => {
 </div>
 </div>
 
-
+     
 
 
 <div className={styles.newslettersection}>
