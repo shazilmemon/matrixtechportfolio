@@ -543,52 +543,59 @@
 
     padding-left: 40px;
 }
-.benifitssection{
+
+.benifitssection {
 
     position: relative;
     bottom: 430px;
     width: 40%;
-    left: 100px;
+    left: 50px;
     padding: 15px;
     font-weight: bold;
     font-size: 40px;
     color: #DE5A27;
 }
-.benifithead{
+
+.benifithead {
 
     font-size: 40px;
     color: #1A1F33;
     padding-top: 10px;
     padding: 15px;
 }
-.expertflex{
+
+.expertflex {
 
     display: flex;
 }
-.expert1{
-    
+
+.expert1 {
+
     padding-left: 60px;
-    padding-top:  20px; 
+    padding-top: 20px;
     font-size: 60px;
 }
-.expert1main{
+
+.expert1main {
     position: relative;
     bottom: 430px;
-    left: 80px;
-    
+    left: 40px;
+
 }
-.expertpara{
+
+.expertpara {
     font-size: 15px;
     font-weight: bold;
     padding-top: 30px;
     padding: 15px;
     padding-left: 40px;
 }
+
 /* .expertsubmain{
 
     display: flex;
 } */
-.threeimg{
+.threeimg {
     position: relative;
     bottom: 800px;
     left: 450px;
@@ -596,7 +603,8 @@
     border-radius: 30px;
 
 }
-.threeimg2{
+
+.threeimg2 {
     position: relative;
     bottom: 1100px;
     left: 460px;
@@ -606,7 +614,7 @@
 }
 
 
-.threeimg3{
+.threeimg3 {
     position: relative;
     bottom: 700px;
     left: 60px;
@@ -614,16 +622,18 @@
     border-radius: 30px;
 
 }
-.finalpara{
+
+.finalpara {
 
     font-size: 20px;
     position: relative;
     bottom: 1030px;
-    padding-left: 80px;
+    padding-left: 50px;
     color: #808080;
-    
+
 }
-.feedbacksectionhead{
+
+.feedbacksectionhead {
 
     text-align: center;
     position: relative;
@@ -633,23 +643,26 @@
     color: #DE5A27;
 
 }
-.feedbacksubpara{
+
+.feedbacksubpara {
     font-size: 20px;
     padding-top: 30px;
     font-weight: bold;
     color: #808080;
 
 }
-.animationdiv{
 
-    border: 1px solid black;
+.animationdiv {
+
+
     height: 600px;
     width: 99%;
     cursor: pointer;
     position: relative;
     bottom: 800px;
 }
-.oliveimg{
+
+.oliveimg {
 
     width: 30%;
     position: relative;
@@ -659,7 +672,8 @@
     border-radius: 50px;
 
 }
-.olivename{
+
+.olivename {
 
     text-align: center;
     padding-right: 70px;
@@ -668,7 +682,8 @@
     font-size: 30px;
     color: black;
 }
-.olivepara{
+
+.olivepara {
 
     padding-top: 70px;
     padding: 30px;
@@ -676,18 +691,19 @@
     font-size: 20px;
 }
 
-.leoimg{
+.leoimg {
 
     width: 30%;
     position: relative;
     left: 420px;
     top: 20px;
     border-radius: 50px;
-    cursor:pointer;
+    cursor: pointer;
 
 
 }
-.leoname{
+
+.leoname {
 
     text-align: center;
     padding-right: 70px;
@@ -696,7 +712,8 @@
     font-size: 30px;
     color: black;
 }
-.leopara{
+
+.leopara {
 
     padding-top: 50px;
     padding: 30px;
@@ -704,7 +721,7 @@
     font-size: 20px;
 }
 
-.johnimg{
+.johnimg {
 
     width: 20%;
     position: relative;
@@ -712,15 +729,17 @@
     cursor: pointer;
     bottom: 10px;
 }
-.johnpara{
 
-        padding-top: 50px;
-        padding: 30px;
-        color: #808080;
-        font-size: 20px;
-      
+.johnpara {
+
+    padding-top: 50px;
+    padding: 30px;
+    color: #808080;
+    font-size: 20px;
+
 }
-.johnname{
+
+.johnname {
 
     text-align: center;
     padding-right: 160px;
@@ -734,22 +753,129 @@
 .swiper {
     width: 100%;
     height: 100%;
-    
-  }
-  
-  .swiper-slide {
+
+}
+
+.swiper-slide {
     text-align: center;
     font-size: 18px;
-    transition: transform .6s ease-in-out;
-
     background: #fff;
-  }
-  .swiper-slide img {
+}
+
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }  
+}
+.joinussection{
+
+    border: 1px solid black;
+    width: 75%;
+    height: 350px;
+    background-color: #DE5A27;
+    position: relative;
+    bottom: 600px;
+    z-index: -10;
+
+}
+.joinus{
+
+    padding: 50px;
+    font-size: 40px;
+    color: #F0F2F4;
+}
+.challenge{
+
+
+    font-size: 30px;
+    padding-left: 45px;
+    position: relative;
+    bottom: 10px;
+    color: #F0F2F4;
+}
+.challengepara{
+
+    padding-left: 45px;
+    color: #F0F2F4;
+    font-size: 15px;
+}
+.jobbutton{
+
+    position: relative;
+    left: 50px;
+    width: 15%;
+    height: 40px;
+    top: 20px;
+}
+.jobbutton:hover{
+
+    background-color: #F0F2F4;
+    color: #DE5A27;
+}
+.challengearrow{
+
+    position: relative;
+    left: 20px;
+}
+.newslettersection{
+
+    border: 1px solid black;
+    width: 99%;
+    height: 400px;
+    background-color: #808080;
+    position: relative;
+    bottom: 600px;
+    z-index: -10;
+}
+.newsletter{
+
+    padding: 50px;
+    font-size: 40px;
+    color: #F0F2F4;
+}
+.what2{
+
+
+    font-size: 30px;
+    padding-left: 45px;
+    position: relative;
+    bottom: 10px;
+    color: #F0F2F4;
+}
+.what2para{
+
+    padding-left: 45px;
+    color: #F0F2F4;
+    font-size: 15px;
+}
+.inputemail{
+    position: relative;
+    left: 50px;
+    border: 1px solid white;
+    outline:none;
+    width: 20%;
+    height: 30px;
+    top: 20px;
+
+}
+.submitbutton{
+
+    position: relative;
+    left: 80px;
+    width: 15%;
+    height: 60px;
+    top: 20px;
+    border: 1px solid white;
+    outline: none;
+}
+.zindeximg{
+
+    padding-left: 740px;
+    position: relative;
+    width: 45%;
+    bottom: 520px;
+}
 @media only screen and (max-width:1024px) {
     .displayimage {
 
@@ -920,6 +1046,45 @@
 
         width: 40%;
     }
+
+    .benifitssection {
+
+        width: 40%;
+        position: relative;
+        right: 200px;
+    }
+
+    .threeimg {
+
+        width: 29%;
+        position: relative;
+        left: 400px;
+
+    }
+
+    .threeimg2 {
+
+        width: 25%;
+        position: relative;
+        bottom: 1030px;
+        left: 410px;
+
+
+    }
+
+    .threeimg3 {
+
+        width: 25%;
+        position: relative;
+        left: 160px;
+        bottom: 770px;
+
+    }
+
+    .finalpara {
+
+        padding-top: 150px;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -1059,6 +1224,130 @@
         position: relative;
         right: 100px;
     } */
+    .expertsubmain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benifitssection {
+
+        width: 90%;
+        text-align: start;
+    }
+
+    .finalpara {
+
+
+        font-size: 40px;
+
+    }
+
+    .expert1main {
+
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-self: center;
+
+    }
+
+    .imagesdiv {
+
+        padding-top: 900px;
+        position: relative;
+        right: 150px;
+    }
+
+    .paradiv {
+
+        position: relative;
+        bottom: 1170px;
+        left: 30px;
+    }
+
+    .threeimg {
+        position: relative;
+        left: 250px;
+        bottom: 700px;
+        width: 40%;
+    }
+
+    .threeimg2 {
+
+        position: relative;
+        left: 270px;
+        bottom: 1000px;
+        width: 40%;
+    }
+
+    .threeimg3 {
+        position: relative;
+        left: 580px;
+        bottom: 990px;
+        width: 40%;
+
+    }
+
+    .feedbacksectionhead {
+
+        position: relative;
+        bottom: 1400px;
+    }
+
+    .animationdiv {
+
+        position: relative;
+        bottom: 1290px;
+    }
+
+    .oliveimg {
+
+        position: relative;
+        left: 300px;
+    }
+
+    .olivepara {
+
+        text-align: center;
+    }
+
+    .olivename {
+
+        padding-left: 120px;
+    }
+
+    .leoimg {
+
+        position: relative;
+        left: 300px;
+    }
+
+    .leopara {
+
+        text-align: center;
+    }
+
+    .leoname {
+
+        padding-left: 120px;
+    }
+
+    .johnimg {
+
+        position: relative;
+        left: 300px;
+    }
+
+    .johnpara {
+
+        text-align: center;
+    }
+
+    .johnname {
+
+        padding-left: 120px;
+    }
+
 
 }
 
@@ -1236,6 +1525,56 @@
 
         text-align: center;
     }
+
+    .expertsubmain {
+
+        display: none;
+    }
+
+    .paradiv {
+
+        display: none;
+    }
+
+    .feedbacksectionhead {
+
+        display: block;
+        padding-top: 1000px;
+    }
+
+    .animationdiv {
+
+        padding-top: 30px;
+    }
+
+    .oliveimg {
+
+        position: relative;
+        left: 120px;
+        width: 40%;
+
+    }
+    .olivename{
+
+        padding-right: 120px;
+    }
+    .leoimg {
+
+        position: relative;
+        left: 120px;
+        width: 40%;
+
+    }
+    .leoname{
+
+        padding-right: 120px;
+    }
+    .johnimg {
+
+        position: relative;
+        left: 120px;
+        width: 40%;
+    }    
 }
 
 @media only screen and (max-width:375px) {

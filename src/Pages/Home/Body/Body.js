@@ -203,14 +203,14 @@ const Body = () => {
             <p className={styles.expertpara}>The best user<br></br> interfaces and<br></br> experience</p>
           </div>
         </div>
-
+          <div className={styles.imagesdiv}> 
         <img className={styles.threeimg} src={display3} />
         <img className={styles.threeimg2} src={display} />
         <img className={styles.threeimg3} src={display4} />
-
+        </div>
 
       </div>
-
+      <div className={styles.paradiv}> 
       <p className={styles.finalpara}>Investing in our people is of critical
         <p>    importance as we move forward. </p>
         <p>     Asinlabs believes in reinventing itself </p>
@@ -219,10 +219,10 @@ const Body = () => {
         <p>        have created a culture that allows us to </p>
         <p>         foster innovation in its broader sense </p>
         <p>         and focus on idea generation. </p></p>
-
+        </div>
 
       <p className={styles.feedbacksectionhead}>Happy Customers
-        <p className={styles.feedbacksubpara}>The remarkable results achieved by organizations that trust Systems.</p>
+        <p className={styles.feedbacksubpara}>The remarkable results achieved by organizations that trust Matrix Tech.</p>
       </p>
 
       <div className={styles.animationdiv}>
@@ -243,7 +243,7 @@ const Body = () => {
               some very good suggestions. They are very pleasant to work with"</p>
           </SwiperSlide>
           <SwiperSlide><img className={styles.leoimg} src={leo} />
-            <p className={styles.leopara}>  <p className={styles.leoname}>Olive Geourge</p>
+            <p className={styles.leopara}>  <p className={styles.leoname}>Leo Oscar</p>
               "They know what they are doing, they do
               their best, and they are all super friendly,
               reliable, communicative people.Their
@@ -255,24 +255,42 @@ const Body = () => {
 
           </SwiperSlide>
           <SwiperSlide><img className={styles.johnimg} src={john} />
-          <p className={styles.johnpara}>  <p className={styles.johnname}>Olive Geourge</p>
+          <p className={styles.johnpara}>  <p className={styles.johnname}>John William</p>
             "Matrix Tech is the firm to work with if you want to keep up to high standards.
              The professional workflows they stick to result in exceptional quality. Important,
               they help you think with the business logic of your application and they don’t
                blindly follow what you are saying. Which is super important. Overall, great
                 skills, good communication, and am happy with the results so far"</p>
-          
-          
           </SwiperSlide>
-
         </Swiper>
-
       </div>
+          
+          
+<div className={styles.joinussection}>
+ <div>  
+<p className={styles.joinus}>Join us!</p>
+<p className={styles.challenge}>Challenge Your Limits</p>
+<p className={styles.challengepara}> 
+<p> Systems Limited is one of the most sought-after employers in the industry. Apply </p>
+<p> now and become a part of the Systems family. </p>
+</p>
+<button className={styles.jobbutton}>View All Jobs <AiOutlineArrowRight className={styles.challengearrow}/></button>
+</div>
+</div>
 
 
 
 
-
+<div className={styles.newslettersection}>
+<div>
+  <p className={styles.newsletter}>NewsLetter</p>
+  <p className={styles.what2}>What’s happening? Be the first to know.</p>
+  <p className={styles.what2para}>What’s happening? Be the first to know.</p>
+  <input  placeholder='E-Mail*' className={styles.inputemail}/>
+  <button className={styles.submitbutton}>Submit</button>
+</div>
+<img className={styles.zindeximg} src = {image2}/>
+</div>
 
 
 
