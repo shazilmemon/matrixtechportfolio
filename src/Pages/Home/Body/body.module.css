@@ -35,6 +35,7 @@
 .display {
 
     display: flex;
+
 }
 
 .menupara {
@@ -44,8 +45,60 @@
     text-align: center;
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
+.responsivediv{
 
+
+    width: 1980%;
+    height: 600px;
+    z-index: -10;
+    background-color: #1C3E6C;
+    
+}
+.menuitems{
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    color: #F0F2F4;
+    font-weight: bold;
+    font-size: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition-property: all;
+
+    
+
+
+    
+
+}
+.about{
+
+    border: 1px solid black;
+    width: 25%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+    bottom: 100px;
+    left: 15px;
+}
+.aboutlast{
+
+    border: 1px solid black;
+    width: 20%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+    
+    bottom: 100px;
+    left: 15px;
+}
 .wedoing {
 
 
@@ -656,7 +709,7 @@
 
 
     height: 600px;
-    width: 99%;
+    width: 98%;
     cursor: pointer;
     position: relative;
     bottom: 800px;
@@ -768,7 +821,8 @@
     height: 100%;
     object-fit: cover;
 }
-.joinussection{
+
+.joinussection {
 
     border: 1px solid black;
     width: 75%;
@@ -779,13 +833,15 @@
     z-index: -10;
 
 }
-.joinus{
+
+.joinus {
 
     padding: 50px;
     font-size: 40px;
     color: #F0F2F4;
 }
-.challenge{
+
+.challenge {
 
 
     font-size: 30px;
@@ -794,13 +850,15 @@
     bottom: 10px;
     color: #F0F2F4;
 }
-.challengepara{
+
+.challengepara {
 
     padding-left: 45px;
     color: #F0F2F4;
     font-size: 15px;
 }
-.jobbutton{
+
+.jobbutton {
 
     position: relative;
     left: 50px;
@@ -808,17 +866,20 @@
     height: 40px;
     top: 20px;
 }
-.jobbutton:hover{
+
+.jobbutton:hover {
 
     background-color: #F0F2F4;
     color: #DE5A27;
 }
-.challengearrow{
+
+.challengearrow {
 
     position: relative;
     left: 20px;
 }
-.newslettersection{
+
+.newslettersection {
 
     border: 1px solid black;
     width: 99%;
@@ -828,13 +889,15 @@
     bottom: 600px;
     z-index: -10;
 }
-.newsletter{
+
+.newsletter {
 
     padding: 50px;
     font-size: 40px;
     color: #F0F2F4;
 }
-.what2{
+
+.what2 {
 
 
     font-size: 30px;
@@ -843,23 +906,26 @@
     bottom: 10px;
     color: #F0F2F4;
 }
-.what2para{
+
+.what2para {
 
     padding-left: 45px;
     color: #F0F2F4;
     font-size: 15px;
 }
-.inputemail{
+
+.inputemail {
     position: relative;
     left: 50px;
     border: 1px solid white;
-    outline:none;
+    outline: none;
     width: 20%;
     height: 30px;
     top: 20px;
 
 }
-.submitbutton{
+
+.submitbutton {
 
     position: relative;
     left: 80px;
@@ -869,13 +935,15 @@
     border: 1px solid white;
     outline: none;
 }
-.zindeximg{
 
-    padding-left: 740px;
+.zindeximg {
+
+    padding-left: 730px;
     position: relative;
     width: 45%;
     bottom: 520px;
 }
+
 @media only screen and (max-width:1024px) {
     .displayimage {
 
@@ -1084,6 +1152,30 @@
     .finalpara {
 
         padding-top: 150px;
+    }
+
+    .zindeximg {
+
+        display: none;
+    }
+
+    .joinussection {
+
+        width: 100%;
+    }
+
+    .newslettersection {
+
+        width: 100%;
+    }
+
+    .inputemail {
+
+        width: 70%;
+    }
+
+    .submitbutton {
+        width: 20%;
     }
 }
 
@@ -1348,7 +1440,28 @@
         padding-left: 120px;
     }
 
+    .jobbutton {
 
+        width: 30%;
+    }
+
+    .inputemail {
+        width: 60%;
+    }
+
+    .submitbutton {
+
+        width: 20%;
+        height: 70px;
+    }
+    .responsivediv{
+
+        display: none;
+     }
+     .menuitems{
+    
+        display: none;
+     }   
 }
 
 @media only screen and (max-width:425px) {
@@ -1554,10 +1667,12 @@
         width: 40%;
 
     }
-    .olivename{
+
+    .olivename {
 
         padding-right: 120px;
     }
+
     .leoimg {
 
         position: relative;
@@ -1565,16 +1680,41 @@
         width: 40%;
 
     }
-    .leoname{
+
+    .leoname {
 
         padding-right: 120px;
     }
+
     .johnimg {
 
         position: relative;
         left: 120px;
         width: 40%;
-    }    
+    }
+
+    .jobbutton {
+
+        width: 40%;
+    }
+
+    .inputemail {
+
+        width: 50%;
+    }
+
+    .submitbutton {
+
+        width: 30%;
+    }
+ .responsivediv{
+
+    display: none;
+ }
+ .menuitems{
+
+    display: none;
+ }   
 }
 
 @media only screen and (max-width:375px) {
@@ -1622,4 +1762,168 @@
         position: relative;
         right: 60px;
     }
+
+    .submitbutton {
+
+        width: 25%;
+    }
+    .responsivediv{
+
+        display: none;
+     }
+     .menuitems{
+    
+        display: none;
+     }       
+}
+
+@media only screen and (max-width:320px) {
+    .cart3 {
+
+        width: 89%;
+    }
+
+    .carthead3 {
+        position: relative;
+        bottom: 10px;
+    }
+.cartpara3{
+
+    position: relative;
+    bottom: 3px;
+    font-size: 17px;
+}
+.cartpara2{
+
+    position: relative;
+    bottom: 3px;
+    font-size: 17px;
+}
+.cartpara1{
+
+    position: relative;
+    bottom: 3px;
+    font-size: 17px;
+}
+.aboutimg{
+
+    position: relative;
+    right: 80px;
+}
+.aboutpara{
+
+    font-size: 35px;
+}
+.webdesigning{
+
+    position: relative;
+    right: 35px;
+}
+.webdevelopment{
+
+    position: relative;
+    right: 35px;
+}
+.graphicdesigning{
+
+    position: relative;
+    right: 35px;
+}
+.projectpara{
+
+position: relative;
+bottom: 28px;
+}
+.projectbutton1{
+
+    height: 30px;
+    width: 50%;
+}
+.project1img{
+
+    position: relative;
+    right: 75px;
+}
+.project2img{
+
+    position: relative;
+    right: 75px;
+}
+.project4img{
+
+    position: relative;
+    right: 75px;
+}
+.project5img{
+
+    position: relative;
+    right: 75px;
+}
+.animationdiv{
+
+    position: relative;
+    bottom: 1300px;
+}
+.oliveimg{
+
+    width: 60%;
+    position: relative;
+    left: 70px;
+}
+.olivename{
+
+    position: relative;
+    right: 40px;
+}
+.olivepara{
+
+    font-size: 20px;
+} 
+
+.leoimg{
+
+    width: 60%;
+    position: relative;
+    left: 70px;
+}
+.leoname{
+
+    position: relative;
+    right: 30px;
+}
+.johnpara{
+
+    font-size: 20px;
+}
+.johnimg{
+
+    width: 60%;
+    position: relative;
+    left: 70px;
+}
+.johnname{
+
+    position: relative;
+    right: 40px;
+}
+.johnpara{
+
+    font-size: 20px;
+}
+.inputemail{
+
+    width: 50%;
+}
+.submitbutton{
+
+    width: 22%;
+}
+.responsivediv{
+
+    display: none;
+ }
+ .menuitems{
+
+    display: none;
+ }                             
 }

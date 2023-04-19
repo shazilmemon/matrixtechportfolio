@@ -25,15 +25,47 @@ import display4 from '../../../images/displayimage4.jpg'
 import olive from '../../../images/oliveGeorge.jpg'
 import leo from '../../../images/leooscar.jpg'
 import john from '../../../images/johnwilliam.jpg'
-const Body = () => {
+import { useState } from 'react'
+
+
+const Body = () => { 
+  const [show, setShow] = useState(false)
+  const [navbarmain,setnavbar] = useState(false)
+  const handleShow = () => {
+    setShow(!show)}    
   return (
+    
     <div>
 
 
 
       <div className={styles.display}>
         <div className={styles.greymenu}>
-          <p className={styles.menupara}>Menu</p>
+          <p onClick={handleShow} className={styles.menupara}>Menu  </p>
+          <div className={styles.navbarRes}>
+
+</div>
+<div className={styles.bodysidemenu}> 
+<div className={styles.responsivediv} style={{
+          zIndex: show ? 1 : 0,
+          visibility: show ? "visible" : "hidden",
+          
+        }}>
+
+          <ul className={styles.menuitems}>
+            {/* <img className={styles.background} src = {background}/> */}
+            
+            <li className={styles.about}>About</li>
+            <li className={styles.about}>Meet Our Team </li>
+            <li className={styles.about}>Faqs</li>
+            <li className={styles.aboutlast}>Contacts</li>
+            
+          </ul>
+
+
+
+        </div>
+        </div>
         </div>
 
         <img className={styles.displayimage} src={image} />
@@ -230,6 +262,7 @@ const Body = () => {
         <Swiper
           pagination={{
             dynamicBullets: true,
+            
           }}
           modules={[Pagination]}
           className="mySwiper"
