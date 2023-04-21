@@ -2,6 +2,7 @@
 
     padding: 0;
     margin: 0;
+    
 }
 
 .displayimage {
@@ -709,7 +710,7 @@
 
 
     height: 600px;
-    width: 98%;
+    width: 97%;
     cursor: pointer;
     position: relative;
     bottom: 800px;
@@ -806,6 +807,7 @@
 .swiper {
     width: 100%;
     height: 100%;
+    overflow: hidden;
 
 }
 
@@ -943,7 +945,139 @@
     width: 45%;
     bottom: 520px;
 }
+.footersection{
 
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 350px;
+}
+.footerpara{
+
+    position: relative;
+    bottom: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px;
+    color: #DE5A27;
+}
+.footerlogo{
+
+    position: relative;
+    bottom: 240px;
+    width: 15%;
+}
+.footersub{
+
+    position: relative;
+    bottom: 650px;
+    padding: 35px;
+    font-size: 20px;
+    color: #808080;
+    font-weight: bold;
+}
+.footerinformation{
+
+  position: relative;
+  bottom: 550px;
+  display: flex;
+  font-weight:bold;
+  color: #DE5A27;
+  justify-content: space-around;  
+}
+.footerul1{
+
+    padding: 30px;
+    list-style: none;
+    position: relative;
+    right: 20px;
+    color: #808080;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footerul2{
+
+    padding: 30px;
+    list-style: none;
+    position: relative;
+    right: 45px;
+    font-weight: bold;
+    color: #808080;
+    cursor: pointer;
+}
+
+.footerul3{
+
+    padding: 30px;
+    list-style: none;
+    position: relative;
+    right: 20px;
+    font-weight: bold;
+    color: #808080;
+    cursor: pointer;
+}
+.lines{
+
+border: 1px solid grey;
+height: 50px;
+width: 85%;
+position: relative;
+bottom: 500px;
+left: 90px;
+}
+.socialmedia{
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 200px;
+}
+.medialinks{
+
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    
+}
+.facebook{
+
+    padding-right: 30px;
+}
+.facebook:hover{
+
+    color: #DE5A27;
+}
+.twitter{
+
+    padding-right: 30px;
+}
+.twitter:hover{
+
+    color: #DE5A27;
+}
+.instagram{
+
+    padding-right: 30px;
+}
+.instagram:hover{
+
+    color: #DE5A27;
+}
+.linkedin{
+
+    padding-right: 30px;
+}
+.linkedin:hover{
+
+    color: #DE5A27;
+}
+.copyright{
+
+    font-size: 20px;
+    font-weight: bold;
+}
 @media only screen and (max-width:1024px) {
     .displayimage {
 
@@ -1177,6 +1311,22 @@
     .submitbutton {
         width: 20%;
     }
+ .olivename{
+
+    width: 85%;
+    padding-left: 120px;
+ }
+ .leoname{
+
+    width: 85%;
+    padding-left: 120px;
+
+ }
+ .johnname{
+
+    width: 70%;
+    padding-left: 160px;
+ } 
 }
 
 @media only screen and (max-width:768px) {
@@ -1390,6 +1540,7 @@
 
         position: relative;
         bottom: 1290px;
+        
     }
 
     .oliveimg {
@@ -1405,7 +1556,8 @@
 
     .olivename {
 
-        padding-left: 120px;
+        padding-left: 90px;
+        width: 80%;
     }
 
     .leoimg {
@@ -1421,13 +1573,14 @@
 
     .leoname {
 
-        padding-left: 120px;
+        padding-left: 90px;
+        width: 80%;
     }
 
     .johnimg {
 
         position: relative;
-        left: 300px;
+        left: 320px;
     }
 
     .johnpara {
@@ -1437,7 +1590,8 @@
 
     .johnname {
 
-        padding-left: 120px;
+        padding-left: 90px;
+        width: 80%;
     }
 
     .jobbutton {
@@ -1461,7 +1615,27 @@
      .menuitems{
     
         display: none;
-     }   
+     }
+ .footersub{
+
+    padding-top: 65px;
+ }
+ .socialmedia{
+
+    display: flex;
+    flex-direction: column;
+ }
+ .medialinks{
+
+    padding-top: 60px;
+    width: 77%;
+    position: relative;
+    left: 150px;
+ }
+ .copyright{
+
+    text-align: center;
+ }     
 }
 
 @media only screen and (max-width:425px) {
@@ -1670,7 +1844,8 @@
 
     .olivename {
 
-        padding-right: 120px;
+    position: relative;left: 20px;    
+    width: 40%;
     }
 
     .leoimg {
@@ -1683,7 +1858,8 @@
 
     .leoname {
 
-        padding-right: 120px;
+        position: relative;left: 20px;    
+        width: 40%;
     }
 
     .johnimg {
@@ -1692,7 +1868,11 @@
         left: 120px;
         width: 40%;
     }
+.johnname{
 
+    position: relative;left: 20px;    
+    width: 30%;
+}
     .jobbutton {
 
         width: 40%;
@@ -1714,9 +1894,69 @@
  .menuitems{
 
     display: none;
- }   
+ }
+.footerlogo{
+   width: 40%;
+   position: relative;
+   left: 60px;
+       
+}
+.footerpara{
+    font-size: 30px;
+    position: relative;
+    bottom: 220px;
+}
+.footersub{
+
+    padding-top: 50px;
+}
+.lines{
+
+    width: 90%;
+    position: relative;
+    left: 40px;
+}
+.footerul1{
+
+    text-align: center;
+    position: relative;
+    right: 30px;
 }
 
+.footerul2{
+
+    text-align: center;
+    
+}
+
+.footerul3{
+
+    text-align: center;
+    
+}
+.footerinformation{
+
+    position: relative;
+    left: 50px;
+}
+.socialmedia{
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 350px;
+}
+.medialinks{
+
+    padding-top: 70px;
+    display: flex;
+    text-align: center;
+}
+.copyright{
+
+    text-align: center;
+}
+}
 @media only screen and (max-width:375px) {
     .cart1 {
 
@@ -1774,7 +2014,8 @@
      .menuitems{
     
         display: none;
-     }       
+     }
+            
 }
 
 @media only screen and (max-width:320px) {
@@ -1873,7 +2114,8 @@ bottom: 28px;
 .olivename{
 
     position: relative;
-    right: 40px;
+    left: -10px;
+    width: 48%;
 }
 .olivepara{
 
@@ -1888,8 +2130,10 @@ bottom: 28px;
 }
 .leoname{
 
+  
     position: relative;
-    right: 30px;
+    left: -10px;
+    width: 48%;
 }
 .johnpara{
 
@@ -1903,8 +2147,10 @@ bottom: 28px;
 }
 .johnname{
 
+   
     position: relative;
-    right: 40px;
+    left: -5px;
+    width: 15%;
 }
 .johnpara{
 
@@ -1925,5 +2171,11 @@ bottom: 28px;
  .menuitems{
 
     display: none;
- }                             
+ }
+.follow{
+
+    font-size: 20px;
+    color: #E86129;
+    padding-right: 30px;
+}                                       
 }

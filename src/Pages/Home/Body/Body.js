@@ -25,7 +25,13 @@ import display4 from '../../../images/displayimage4.jpg'
 import olive from '../../../images/oliveGeorge.jpg'
 import leo from '../../../images/leooscar.jpg'
 import john from '../../../images/johnwilliam.jpg'
+import logo from '../../../images/logo.png'
+import {FaFacebook} from 'react-icons/fa'
+import {FiTwitter} from 'react-icons/fi'
+import {BsInstagram} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
 import { useState } from 'react'
+
 
 
 const Body = () => { 
@@ -327,11 +333,60 @@ const Body = () => {
 
 
 
+<div className={styles.footersection}>
+<p className={styles.footerpara}>Get in a Touch</p>
+<img className={styles.footerlogo} src = {logo}/>
+</div>
+<p className={styles.footersub}>Technology You Can Trust</p>
+
+<div className={styles.footerinformation}>
+<p>Explore
+<ul className={styles.footerul1}>  
+<li>About</li>  
+<li>Meet our Team</li>  
+<li>FAQS</li>  
+<li>Contact</li> </ul>   
+  </p>  
+<p>Expertise
+<ul className={styles.footerul2}>
+<li>Web Designing</li>  
+<li>Web Development</li>  
+<li>Graphic Designing</li>  
+</ul>  
+</p>  
+    
+<p>Products
+<ul className={styles.footerul3}>
+<li>Reilu</li>
+<li>Stiq</li>
+<li>Film Festival</li>
+<li>Swell</li>
+<li>Safe Bar</li>
+</ul>  
+</p>  
+</div>
+
+<div className={styles.lines}> 
+
+</div>  
+  
+  
+<div className={styles.socialmedia}>
+
+<div className={styles.copyright}>
+© Copyright 2023 by Matrix Tech
+</div>
+
+<div className={styles.medialinks}>
+ <p className={styles.follow}>Follow Us</p> 
+ <FaFacebook className={styles.facebook}/> 
+ <FiTwitter className={styles.twitter}/> 
+ <BsInstagram className={styles.instagram}/> 
+ <BsLinkedin className={styles.linkedin}/> 
+</div>
 
 
-
-
-
+</div>
 
 
 
