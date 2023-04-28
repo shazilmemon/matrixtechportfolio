@@ -27,7 +27,7 @@ const Header = () => {
 <li>Contact</li>
 <li>More</li>
 </ul>
-<AiOutlineSearch className={styles.searchicon}/>
+<AiOutlineSearch  className={styles.searchicon}/>
 <AiOutlineMenu className={styles.searchmenu}/>
 </div>
 </div>
@@ -47,10 +47,10 @@ const Header = () => {
 
           <ul className={styles.resul}>
             {/* <img className={styles.background} src = {background}/> */}
-            <li>Home</li>
-            <li>Services</li>
+            <li>Explore</li>
+            <li>Expertise</li>
             <li>Contact</li>
-            <li>More</li>
+            
             
           </ul>
 

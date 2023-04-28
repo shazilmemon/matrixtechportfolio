@@ -61,10 +61,36 @@ const Body = () => {
           <ul className={styles.menuitems}>
             {/* <img className={styles.background} src = {background}/> */}
             
-            <li className={styles.about}>About</li>
-            <li className={styles.about}>Meet Our Team </li>
-            <li className={styles.about}>Faqs</li>
-            <li className={styles.aboutlast}>Contacts</li>
+            <li  className={styles.about}>Explore
+            <div className={styles.hidden}> 
+            <li>About</li>
+            <li>Meet our Team</li>
+            <li>Faqs</li>
+            <li>Contact</li>
+            </div>
+            </li>
+            
+            
+            <li className={styles.about}>Expertise
+            <div className={styles.hidden}> 
+            <li>Web Designing</li>
+            <li>Web Development</li>
+            <li>graphicdesigning</li>
+            </div>
+            </li>
+            <li className={styles.about}>Products
+            <div className={styles.hidden}> 
+            <li>Reilu</li>
+            <li>Stiq</li>
+            <li>Film Festival</li>
+            <li>Swell</li>
+            <li>Safebar</li>
+            </div>
+            
+            
+            
+            </li>
+            
             
           </ul>
 
