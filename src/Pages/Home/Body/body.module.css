@@ -27,10 +27,11 @@
 
 
     width: 5%;
-    background-color: #9ca8c4;
+    background-color: 0 0 0 0.5;
     height: 650px;
     position: relative;
     bottom: 250px;
+    
 }
 
 .display {
@@ -45,7 +46,7 @@
     top: 300px;
     text-align: center;
     font-size: 20px;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 .responsivediv{
@@ -1038,9 +1039,14 @@ left: 90px;
     display: flex;
     
 }
+.follow{
+
+    color: blue;
+}
 .facebook{
 
     padding-right: 30px;
+    color: #717171;
 }
 .facebook:hover{
 
@@ -1049,6 +1055,8 @@ left: 90px;
 .twitter{
 
     padding-right: 30px;
+    color: #808080;
+
 }
 .twitter:hover{
 
@@ -1057,6 +1065,8 @@ left: 90px;
 .instagram{
 
     padding-right: 30px;
+    color: #808080;
+
 }
 .instagram:hover{
 
@@ -1065,6 +1075,8 @@ left: 90px;
 .linkedin{
 
     padding-right: 30px;
+    color: #808080;
+
 }
 .linkedin:hover{
 
@@ -2258,7 +2270,7 @@ bottom: 28px;
     width: 40%;
     position: relative;
     bottom: 240px;
-    left: 50px;
+    
 } 
 .footerul1{
 

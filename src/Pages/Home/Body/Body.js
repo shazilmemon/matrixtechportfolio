@@ -46,18 +46,19 @@ const Body = () => {
 
 
       <div className={styles.display}>
-        <div className={styles.greymenu}>
-          <p onClick={handleShow} className={styles.menupara}>Menu  </p>
+        <div  onClick={handleShow} className={styles.greymenu}>
+          <p className={styles.menupara}>Menu  </p>
           <div className={styles.navbarRes}>
 
 </div>
 <div className={styles.bodysidemenu}> 
 <div className={styles.responsivediv} style={{
           zIndex: show ? 1 : 0,
-          visibility: show ? "visible" : "hidden",
+          width: show ? "1345px" : "0px",
+          transition:"1s"
           
         }}>
-
+{show ?
           <ul className={styles.menuitems}>
             {/* <img className={styles.background} src = {background}/> */}
             
@@ -93,7 +94,8 @@ const Body = () => {
             
             
           </ul>
-
+:null
+}
 
 
         </div>
