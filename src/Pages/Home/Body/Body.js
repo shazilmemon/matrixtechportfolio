@@ -54,7 +54,7 @@ const Body = () => {
 <div className={styles.bodysidemenu}> 
 <div className={styles.responsivediv} style={{
           zIndex: show ? 1 : 0,
-          width: show ? "1345px" : "0px",
+          width: show ? "1065px" : "0px",
           transition:"1s"
           
         }}>

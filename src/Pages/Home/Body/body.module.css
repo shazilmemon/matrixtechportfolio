@@ -80,7 +80,7 @@ padding-top: 30px;
 
 .about{
 
-    border: 1px solid black;
+    
     width: 22%;
     height: 300px;
     position: relative;
@@ -114,7 +114,7 @@ padding-top: 30px;
 .what {
 
     text-align: start;
-    padding: 50px;
+    padding: 60px;
     font-size: 30px;
     color: #3566D6;
     font-weight: bold;
@@ -131,7 +131,7 @@ padding-top: 30px;
 
 .cart1 {
 
-    border: 1px solid black;
+    border: 1px solid  #b7b7b7 ;
     width: 20%;
     height: 350px;
     padding-left: 40px;
@@ -171,7 +171,7 @@ padding-top: 30px;
 
 .cart2 {
 
-    border: 1px solid black;
+    border: 1px solid  #b7b7b7 ;
     width: 20%;
     height: 350px;
     padding-left: 40px;
@@ -208,7 +208,7 @@ padding-top: 30px;
 
 .cart3 {
 
-    border: 1px solid black;
+    border: 1px solid  #b7b7b7 ;
     width: 20%;
     height: 350px;
     padding-left: 40px;
@@ -250,7 +250,7 @@ padding-top: 30px;
     height: 1000px;
     position: relative;
     bottom: 120px;
-    background-color: #3566D6;
+    background-color: #537fe7;
     z-index: -10;
 }
 
@@ -270,6 +270,7 @@ padding-top: 30px;
     padding-top: 390px;
     font-size: 50px;
     padding-left: 30px;
+    color: white;
 }
 
 .button1 {
@@ -364,18 +365,27 @@ padding-top: 30px;
 
     text-align: center;
     font-weight: bold;
+    color: rgb(98, 98, 98);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .experthead2 {
 
     text-align: center;
     font-weight: bold;
+    color: rgb(98, 98, 98);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .experthead3 {
 
     text-align: center;
     font-weight: bold;
+    color: rgb(98, 98, 98);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -404,7 +414,6 @@ padding-top: 30px;
     padding-left: 27px;
     font-size: 20px;
 
-
 }
 
 .projectcartmain {
@@ -425,14 +434,17 @@ padding-top: 30px;
 
 .projectcart1 {
 
-    border: 1px solid white;
+    border-radius: 30px;
     background-color: white;
     width: 25%;
     position: relative;
     bottom: 380px;
     height: 300px;
+    transition: 1s;
 }
-
+.projectcart1:hover{
+    color: white;
+}
 .projectcart3 {
 
     display: none;
@@ -446,11 +458,13 @@ padding-top: 30px;
 .projectcart2:hover {
 
     background-color: #3566D6;
+
 }
 
 .projectcart3:hover {
 
     background-color: #3566D6;
+    
 }
 
 .projectcart4:hover {
@@ -500,46 +514,64 @@ padding-top: 30px;
 
 .projectcart2 {
 
-    border: 1px solid white;
+    
     width: 25%;
     background-color: white;
+    border-radius: 30px;
     position: relative;
     bottom: 380px;
     height: 300px;
+    transition: 1s;
 }
-
+.projectcart2:hover{
+    color: white;
+}
 .projectcart3 {
 
-    border: 1px solid white;
+    
     background-color: white;
     width: 25%;
+    border-radius: 30px;
     position: relative;
     bottom: 380px;
     height: 300px;
-}
+    transition: 1s;
 
+}
+.projectcart3:hover{
+    color: white;
+}
 
 .projectcart4 {
 
-    border: 1px solid white;
+    
     background-color: white;
-
+    border-radius: 30px;
     width: 25%;
     position: relative;
     bottom: 380px;
     height: 300px;
-}
+    transition: 1s;
 
+}
+.projectcart4:hover{
+    color: white;
+}
 .projectcart5 {
 
-    border: 1px solid white;
+    
     background-color: white;
     width: 25%;
+    border-radius: 30px;
     position: relative;
     bottom: 380px;
     height: 300px;
-}
+    transition: 1s;
 
+}
+.projectcart5:hover{
+    color: white;
+}
 .projectcarthead {
     text-align: center;
     font-size: 30px;
@@ -556,8 +588,8 @@ padding-top: 30px;
     text-align: center;
     font-size: 15px;
     padding-top: 40px;
-
 }
+
 
 .projectcarthead3 {
     text-align: center;
@@ -682,6 +714,8 @@ padding-top: 30px;
     position: relative;
     bottom: 1030px;
     padding-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
     color: #808080;
 
 }
@@ -740,6 +774,7 @@ padding-top: 30px;
 
     padding-top: 70px;
     padding: 30px;
+    text-align: center;
     color: #808080;
     font-size: 20px;
 }
@@ -772,6 +807,8 @@ padding-top: 30px;
     padding: 30px;
     color: #808080;
     font-size: 20px;
+    text-align: center;
+
 }
 
 .johnimg {
@@ -789,6 +826,8 @@ padding-top: 30px;
     padding: 30px;
     color: #808080;
     font-size: 20px;
+    text-align: center;
+
 
 }
 
@@ -830,7 +869,7 @@ padding-top: 30px;
     height: 350px;
     background-color: #3566D6;
     position: relative;
-    bottom: 730px;
+    bottom: 420px;
     z-index: -10;
 
 }
@@ -886,7 +925,7 @@ padding-top: 30px;
     height: 400px;
     background-color: black;
     position: relative;
-    bottom: 730px;
+    bottom: 430px;
     z-index: -10;
 }
 
@@ -947,8 +986,7 @@ padding-top: 30px;
 
     display: flex;
     justify-content: space-between;
-    position: relative;
-    bottom: 350px;
+    
 }
 .footerpara{
 
@@ -968,7 +1006,7 @@ padding-top: 30px;
 .footersub{
 
     position: relative;
-    bottom: 650px;
+    bottom: 340px;
     padding: 35px;
     font-size: 20px;
     color: #808080;
@@ -977,7 +1015,7 @@ padding-top: 30px;
 .footerinformation{
 
   position: relative;
-  bottom: 550px;
+  bottom: 200px;
   display: flex;
   font-weight:bold;
   color: #3566D6;
@@ -1021,7 +1059,7 @@ border: 1px solid grey;
 height: 50px;
 width: 85%;
 position: relative;
-bottom: 500px;
+bottom: 150px;
 left: 90px;
 }
 .socialmedia{
@@ -1029,7 +1067,7 @@ left: 90px;
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: 200px;
+    
 }
 .medialinks{
 
