@@ -171,7 +171,7 @@ justify-content: space-between;
     width: 5%;
     position: relative;
     bottom: 60px;
-    left: 760px;
+    left: 740px;
     font-size: 25px;
     font-weight: bold;
     color: black;
@@ -211,7 +211,7 @@ justify-content: space-between;
     
 } 
 }
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:425px ) {
     .matrixlogo{
         display: none;
     }
@@ -273,7 +273,7 @@ display: none;
     width: 5%;
     position: relative;
     bottom: 60px;
-    left: 360px;
+    left: 340px;
     font-size: 25px;
     font-weight: bold;
     color: black;
@@ -293,7 +293,7 @@ display: none;
         width: 5%;
         position: relative;
         bottom: 50px;
-        left: 310px;
+        left: 290px;
         font-size: 25px;
         font-weight: bold;
         color: black;

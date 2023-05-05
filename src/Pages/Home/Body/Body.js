@@ -253,7 +253,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className={styles.expertsubmain}>
+      {/* <div className={styles.expertsubmain}>
         <p className={styles.benifitssection}>Our Benifits
           <p className={styles.benifithead}>Reason Why We<br></br> Are Best</p> </p>
 
@@ -275,8 +275,8 @@ const Body = () => {
         <img className={styles.threeimg3} src={display4} />
         </div>
 
-      </div>
-      <div className={styles.paradiv}> 
+      </div> */}
+      {/* <div className={styles.paradiv}> 
       <p className={styles.finalpara}>Investing in our people is of critical
         <p>    importance as we move forward. </p>
         <p>     Asinlabs believes in reinventing itself </p>
@@ -285,7 +285,7 @@ const Body = () => {
         <p>        have created a culture that allows us to </p>
         <p>         foster innovation in its broader sense </p>
         <p>         and focus on idea generation. </p></p>
-        </div>
+        </div> */}
 
       <p className={styles.feedbacksectionhead}>Happy Customers
         <p className={styles.feedbacksubpara}>The remarkable results achieved by organizations that trust Matrix Tech.</p>

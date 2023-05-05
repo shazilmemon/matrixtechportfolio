@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     
+    
 }
 
 .displayimage {
@@ -724,7 +725,7 @@ padding-top: 30px;
 
     text-align: center;
     position: relative;
-    bottom: 850px;
+    bottom: 460px;
     font-size: 30px;
     font-weight: bold;
     color: #3566D6;
@@ -746,7 +747,7 @@ padding-top: 30px;
     width: 97%;
     cursor: pointer;
     position: relative;
-    bottom: 800px;
+    bottom: 430px;
 }
 
 .oliveimg {
@@ -1125,17 +1126,24 @@ left: 90px;
     font-size: 20px;
     font-weight: bold;
 }
+@media only  screen and (max-width:1115px) {
+ .zindeximg{
+
+    position: relative;
+    right: 125px;
+ }   
+}
 @media only screen and (max-width:1024px) {
     .displayimage {
 
-        width: 40%;
+        width: 45%;
         position: relative;
         bottom: 220px;
     }
 
     .displayimage2 {
 
-        width: 60%;
+        width: 55%;
         position: relative;
         bottom: 220px;
 
@@ -1384,6 +1392,9 @@ left: 350px;
 }
 
 @media only screen and (max-width:768px) {
+*{
+    
+}   
     .display {
 
         display: flex;
@@ -1406,12 +1417,12 @@ left: 350px;
 
     .displayimage {
 
-        width: 100%;
+        width: 99%;
     }
 
     .displayimage2 {
 
-        width: 100%;
+        width: 99%;
 
     }
 
@@ -1587,13 +1598,13 @@ left: 350px;
     .feedbacksectionhead {
 
         position: relative;
-        bottom: 1400px;
+        bottom: 150px;
     }
 
     .animationdiv {
 
         position: relative;
-        bottom: 1290px;
+        bottom: 130px;
         
     }
 
@@ -1673,7 +1684,7 @@ left: 350px;
  .footersub{
 
     position: relative;
-    bottom: 1280px;
+    bottom: 150px;
  }
  .socialmedia{
 
@@ -1699,33 +1710,30 @@ left: 350px;
 .joinussection{
 
     position: relative;
-    bottom: 1350px;
+    bottom: 200px;
 }
 .newslettersection{
 
     position: relative;
-    bottom: 1350px;
+    bottom: 200px;
 }
 .footersection{
 
     position: relative;
-    bottom: 1020px;
+   top: 100px;
 }
 .footerinformation{
 
     position: relative;
-    bottom: 1200px;
+    bottom: 100px;
 }
 .lines{
 
     position: relative;
-    bottom: 1200px;
+    bottom: 100px;
+    left: 50px;
 }
-.socialmedia{
-
-    position: relative;
-    bottom: 1000px;
-}          
+        
 }
 
 @media only screen and (max-width:425px) {
@@ -1916,12 +1924,14 @@ left: 350px;
     .feedbacksectionhead {
 
         display: block;
-        padding-top: 1000px;
+         position: relative;
+         bottom: 350px;   
     }
 
     .animationdiv {
 
-        padding-top: 30px;
+        position: relative;
+        bottom: 300px;
     }
 
     .oliveimg {
@@ -1934,7 +1944,8 @@ left: 350px;
 
     .olivename {
 
-    position: relative;left: 20px;    
+    position: relative;
+    left: 20px;    
     width: 40%;
     }
 
@@ -1999,7 +2010,8 @@ left: 350px;
 }
 .footersub{
 
-    position: relative;bottom: 650px;
+    position: relative;
+    bottom: 180px;
 }
 .lines{
 
@@ -2010,12 +2022,12 @@ left: 350px;
 .newslettersection{
 
     position: relative;
-    bottom: 700px;
+    bottom: 200px;
 }
 .joinussection{
 
     position: relative;
-    bottom: 700px;
+    bottom: 200px;
 }
 .footerul1{
 
@@ -2038,12 +2050,12 @@ left: 350px;
 .footerinformation{
 
 position: relative;
-bottom: 500px;    
+bottom: 170px;    
 }
 .lines{
 
     position: relative;
-    bottom: 500px;
+    bottom: 150px;
 }
 .footersection{
 
@@ -2056,7 +2068,7 @@ bottom: 500px;
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 350px;
+    bottom: 30px;
 }
 .medialinks{
 
@@ -2133,9 +2145,23 @@ bottom: 500px;
 .footerinformation{
 
     position: relative;
-    left: 10px;
+    text-align: center;
+    left: -25px;
 }
-            
+.footerul1{
+    position: relative;
+    right: -25px;
+}
+.footerul3{
+
+    position: relative;
+    right: -5px;
+}
+.footerul2{
+
+    position: relative;
+    left: 10px;
+}               
 }
 
 @media only screen and (max-width:320px) {
@@ -2223,7 +2249,12 @@ bottom: 28px;
 .animationdiv{
 
     position: relative;
-    bottom: 1300px;
+    bottom: 450px;
+}
+.feedbacksectionhead{
+
+    position: relative;
+    bottom: 500px;
 }
 .oliveimg{
 
@@ -2324,5 +2355,26 @@ bottom: 28px;
 }
 .medialinks{
     
+}
+.projectcartmain{
+
+    width: 99%;
+}
+.service3{
+    position: relative;
+    top: 30px;
+}
+.olivepara{
+
+    text-align: center;
+}
+.leopara{
+
+    text-align: center;
+}
+.johnpara{
+    text-align: center;
+    position: relative;
+    bottom: 35px;
 }                                                                
 }
